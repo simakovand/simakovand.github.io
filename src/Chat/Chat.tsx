@@ -45,7 +45,7 @@ function Chat () {
 
 	const handleSubmit = () => {
 		if (inputValue.trim() !== '') {
-			setMessages(
+						setMessages(
 				[
 					...messages, 
 					{ content: inputValue, user: user, avatar: 'https://api.dicebear.com/7.x/miniavs/svg?seed=' }, 
